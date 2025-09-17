@@ -1,0 +1,23 @@
+<script>
+  // JavaScript untuk proses login
+  function login() {
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
+    const message = document.getElementById("message");
+
+    // Data login yang sudah diubah username-nya
+    const validUsername = "rayhana";
+    const validPassword = "smkbisnis10";
+
+    if (username === "" || password === "") {
+      message.style.color = "red";
+      message.textContent = "Semua kolom harus diisi!";
+    } else if (username === validUsername && password === validPassword) {
+      message.style.color = "green";
+      message.textContent = "Login berhasil! Selamat datang.";
+    } else {
+      message.style.color = "red";
+      message.textContent = "Nama pengguna atau kata sandi salah.";
+    }
+  }
+</script>
