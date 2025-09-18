@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff2b3;
+}
+
+.container {
+width: 100%;
+display: center;
+max-width: 400px;
+background: #ff9d9d;
+border-radius:15px ;
+box-shadow:0 10px 15px rgba(0, 0, 0, 0.1) ;
+}
+
+.login {
+    width: 400px;
+}
+
+form {
+    width: 100%;
+ 
+}
+
+h1 {
+   margin-bottom: 10px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+hr {
+border-top: 2px solid #ffffff;
+border: none;
+margin: 10px 0;
+}
+
+p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.right img {
+width: 450px;
+height: 100%;
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+
+form label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+    margin: 5x 0 15px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button {
+ border: none;
+ padding: 8px;
+ width: 252px;
+ color: #000000;
+ font-size: 16px;
+ cursor: pointer;
+ border-radius: 5px;
+ background: #a1ff0a;
+}
+
+button:hover {
+    background: rgb(255, 2, 2);
+}
+
+@media (max-width:880px) {}
+.container {
+    width: 100%;
+    max-width: 750px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+form{
+    width: 300px;
+    margin: 20px auto;
+;
+}
+
+.login{
+    width: 400px;
+padding: 20px;
+
+button{
+  width: 100%;
+}
+
+.right img{
+    width: 100%;
+    height: 100%;
+}
+}
+
